@@ -29,11 +29,11 @@ export const InfoRow = styled.div`
     display: grid;
     grid-auto-columns: minmax(auto, 1fr);
     align-items: center;
-    grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
+    grid-template-areas: ${({imgStart}) => imgStart ? `'col2 col1'` : `'col1 col2'`};
     
     @media screen and (max-width: 768px){
-        grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'` : 
-        `'col1 col1' 'col2 col2'`)};
+        grid-template-areas: ${({imgStart}) => imgStart ? `'col1' 'col2'` : 
+        `'col1 col1' 'col2 col2'`};
         
     }
 
@@ -60,8 +60,7 @@ export const TextWrapper = styled.div`
 
 export const TopLine = styled.p`
     color: #ffd02b;
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 22px;
     font-weight: 700;
     letter-spacing: 1.4px;
     text-transform: uppercase;
@@ -69,7 +68,6 @@ export const TopLine = styled.p`
 `;
 
 export const Heading = styled.h1`
-    color: #000;
     margin-bottom: 24px;
     font-size: 48px;
     line-height: 1.1;
@@ -85,7 +83,7 @@ export const Heading = styled.h1`
 export const Subtitle = styled.p`
     max-width: 440px;
     margin-bottom: 35px;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 24px;
     color: ${({ darkText }) => (darkText ? '#010606' : '#fff')};
 `;
@@ -103,7 +101,7 @@ export const ImgWrap = styled.div`
 `;
 
 export const Img = styled.img`
-    width: 100%;
+    width: 90%;
     margin: 0 0 10px 0;
     padding-right: 0;
 

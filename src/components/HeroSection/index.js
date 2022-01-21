@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
 import Video from '../../videos/video.mp4';
+import heroBg from '../../images/hero-bg.jpg'
 import { Button } from '../ButtonElement';
-import { HeroContainer, HeroBg, VideoBg, HeroContent, 
+import { HeroContainer, HeroBg, ImageBg, VideoBg, HeroContent, 
     HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight } from './HeroElements';
 
 const HeroSection = () => {
@@ -16,7 +17,7 @@ const HeroSection = () => {
     return (
         <HeroContainer>
             <HeroBg>
-                <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
+                <ImageBg src={heroBg}/>
             </HeroBg>
 
             <HeroContent>
