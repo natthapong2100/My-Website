@@ -1,18 +1,24 @@
 import React from 'react';
+import { animateScroll as scroll } from 'react-scroll';
 import {FaFacebook, FaLine, FaGithub, FaLinkedin} from 'react-icons/fa'
 import { FooterContainer, FooterWrap, SocialMedia, SocialMediaWrap, SocialLogo, 
     WebsiteRights, SocialIcons, SocialIconLink } from './FooterElements';
 
 
 const Footer = () => {
-  return (
+
+    const toggleHome = () => {
+        scroll.scrollToTop();
+    }
+
+    return (
     <>
         <FooterContainer id="contact">
             <FooterWrap>
 
                 <SocialMedia>
                     <SocialMediaWrap>
-                        <SocialLogo to='/'>
+                        <SocialLogo to='/' onClick={toggleHome}>
                             Natthapong L.
                         </SocialLogo>
                         <WebsiteRights>Natthapong L. © {new Date().getFullYear()} All rights 

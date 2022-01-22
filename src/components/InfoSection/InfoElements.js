@@ -105,4 +105,8 @@ export const Img = styled.img`
     margin: 0 0 10px 0;
     padding-right: 0;
 
+    @media screen and (max-width: 768px){
+        width: 75%;
+    }
+
 `;

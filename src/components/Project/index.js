@@ -17,7 +17,7 @@ const Project = () => {
           <ProjectIcon src={webPic}/>
           <ProjectH2>My Website</ProjectH2>
           <ProjectP>The website that is written by React, JavaScript, HTML and CSS which have
-            About Me, Skills, Projects and Contact section.
+            About Me, Skills and Projects section.
           </ProjectP>
         </ProjectCard>
 

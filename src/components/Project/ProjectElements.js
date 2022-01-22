@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const ProjectContainer = styled.div`
-    height: 100vh;
+    height: 75vh; // for found footer contact , (ori = 100vh), 75vh = no contact
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,6 +19,7 @@ export const ProjectContainer = styled.div`
 `;
 
 export const ProjectWrapper = styled.div`
+    color: #010606;
     border: 2px solid;
     border-radius: 10px;
     right: 0;
@@ -37,12 +38,14 @@ export const ProjectWrapper = styled.div`
     margin-bottom: 4em;
 
 
+
     @media screen and (max-width: 1000px){ // if sreen max-width is 1000px, do this
         grid-template-columns: 1fr 1fr;
+        height: 450px;
         padding: 0 20px;
         display: grid;
 
-        transform: scale(0.75);
+        transform: scale(0.58);
     }
 
     @media screen and (max-width: 768px){

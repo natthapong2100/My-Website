@@ -14,12 +14,11 @@ const Sidebar = ({isOpen, toggle}) =>{
                     <SidebarLink to='about_me' onClick={toggle} >About Me</SidebarLink>
                     <SidebarLink to='skills' onClick={toggle} >Skills</SidebarLink>
                     <SidebarLink to='projects' onClick={toggle} >Projects</SidebarLink>
-                    <SidebarLink to='contact' onClick={toggle} >Contact</SidebarLink>
 
                 </SidebarMenu>
 
                 <SideBtnWrap>
-                    <SidebarRoute to='/github'>GitHub</SidebarRoute>
+                    <SidebarRoute to={{pathname: "//github.com/natthapong2100"}} target="_blank" onClick={toggle} >GitHub</SidebarRoute>
                 </SideBtnWrap>
 
             </SidebarWrapper>
