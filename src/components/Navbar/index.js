@@ -29,7 +29,7 @@ const Navbar = ({toggle}) => {
                     </NavMenu>
 
                     <NavBtn>
-                        <NavBtnLink to={{pathname: "https://github.com/natthapong2100"}} target="_blank">GitHub</NavBtnLink>
+                        <NavBtnLink to={{pathname: "//github.com/natthapong2100"}} target="_blank">GitHub</NavBtnLink>
                     </NavBtn>
                     
                 </NavbarContainer>
