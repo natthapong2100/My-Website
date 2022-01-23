@@ -2,7 +2,7 @@ import React from 'react';
 import { animateScroll as scroll } from 'react-scroll';
 import {FaFacebook, FaLine, FaGithub, FaLinkedin} from 'react-icons/fa'
 import { FooterContainer, FooterWrap, SocialMedia, SocialMediaWrap, SocialLogo, 
-    WebsiteRights, SocialIcons, SocialIconLink } from './FooterElements';
+    WebsiteRights, SocialIcons, SocialIconLink, InnerWrap, AddressTxt, MiddleWrap } from './FooterElements';
 
 
 const Footer = () => {
@@ -18,11 +18,21 @@ const Footer = () => {
 
                 <SocialMedia>
                     <SocialMediaWrap>
-                        <SocialLogo to='/' onClick={toggleHome}>
+                        <InnerWrap>
+                            <SocialLogo to='/' onClick={toggleHome}>
                             Natthapong L.
-                        </SocialLogo>
-                        <WebsiteRights>Natthapong L. © {new Date().getFullYear()} All rights 
-                        reserved.</WebsiteRights>
+                            </SocialLogo>
+                            <WebsiteRights>Natthapong L. © {new Date().getFullYear()} All rights 
+                            reserved.</WebsiteRights>
+                        </InnerWrap>
+                            
+                        <MiddleWrap>
+                            <AddressTxt> Address: Bangkok 10220 <br></br> Email address: 63011208@kmitl.ac.th </AddressTxt>
+                            {/* <AddressTxt> Email address: 63011208@kmitl.ac.th</AddressTxt>                         */}
+                            
+                        </MiddleWrap>
+                        
+                        
                         <SocialIcons>
 
                             <SocialIconLink href='//www.facebook.com/profile.php?id=100009865321766' target="_blank" aria-label="Facebook">
@@ -37,7 +47,7 @@ const Footer = () => {
                                 <FaGithub />
                             </SocialIconLink>
 
-                            <SocialIconLink href='/' target="_blank" aria-label="Linkedin">
+                            <SocialIconLink href='//www.linkedin.com/in/natthapong-lueangphumphitthaya-24441520a/' target="_blank" aria-label="Linkedin">
                                 <FaLinkedin />
                             </SocialIconLink>                          
 

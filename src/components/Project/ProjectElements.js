@@ -37,8 +37,6 @@ export const ProjectWrapper = styled.div`
     padding: 0 2rem;
     margin-bottom: 4em;
 
-
-
     @media screen and (max-width: 1000px){ // if sreen max-width is 1000px, do this
         grid-template-columns: 1fr 1fr;
         height: 450px;
@@ -62,7 +60,7 @@ export const ProjectCard = styled.div`
     background: #fff;
     height: 700px;
     max-height: 370px;
-    width: 250px;
+    width: 270px; // 250
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -91,6 +89,7 @@ export const ProjectCard = styled.div`
 
 `;
 
+
 export const ProjectIcon = styled.img`
     height: 160px;
     width: auto;
@@ -116,11 +115,17 @@ export const ProjectH1 = styled.h1`
 
 export const ProjectH2 = styled.h2`
     color: #fc6545;
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin-bottom: 10px;
 `;
 
 export const ProjectP = styled.p`
     font-size: 1rem;
     text-align: center;
-`
+`;
+
+export const CardLink = styled.a`
+    position: fixed;
+    height: 100%;
+    width: 100%;
+`;
