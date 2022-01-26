@@ -8,22 +8,15 @@ export const ProjectContainer = styled.div`
     align-items: center;
     background: #010606;
 
-    /* @media screen and (max-width: 768px){
-        height: 1100px;
-    }
-
-    @media screen and (max-width: 480px){
-        height: 1300px;
-    } */
-
-    @media screen and (max-width: 820px){ // for phne
+    @media screen and (max-width: 820px){ // for phone
         height: 1760px; // 1800
         justify-content: flex-start;
     }
 
-    @media screen and (max-width: 1300px){ // for iPad
-        
+    @media screen and (max-width: 1000px){ // for iPad
+        justify-content: flex-start;
     }
+
 
 `;
 
@@ -48,20 +41,13 @@ export const ProjectWrapper = styled.div`
 
     @media screen and (max-width: 1000px){ // if sreen max-width is 1000px, do this
         grid-template-columns: 1fr 1fr;
-        height: 450px;
+        height: 20px;
         padding: 0 20px;
         display: grid;
 
-        transform: scale(0.7);
+        transform: scale(0.85);
     }
 
-    @media screen and (max-width: 768px){
-        grid-template-columns: 1fr 1fr;
-        padding: 0 20px;
-        display: grid;
-
-        transform: scale(0.75);
-    }
 
     @media screen and (max-width: 820px){ // for phone
         grid-template-columns: 1fr;
@@ -100,13 +86,17 @@ export const ProjectCard = styled.div`
         cursor: pointer;
     }
 
-    @media screen and (max-width: 820px){
+    @media screen and (max-width: 820px){ // for phone
         margin: 0 10px;
-        margin-bottom: 18px; // space
+        margin-bottom: 22px; // space
     }
 
     @media screen and (max-width: 1300px){ // for iPad
         width: 270px;
+    }
+
+    @media screen and (max-width: 1000px){
+        margin-bottom: 20px; // space
     }
 
 
@@ -124,7 +114,7 @@ export const ProjectH1 = styled.h1`
     color: #ffd02b;
     margin-bottom: 64px;
 
-    @media screen and (max-width: 600px){
+    @media screen and (max-width: 820px){
         margin-top: 7rem;
     }
 
