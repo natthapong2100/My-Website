@@ -8,12 +8,21 @@ export const ProjectContainer = styled.div`
     align-items: center;
     background: #010606;
 
-    @media screen and (max-width: 768px){
+    /* @media screen and (max-width: 768px){
         height: 1100px;
     }
 
     @media screen and (max-width: 480px){
         height: 1300px;
+    } */
+
+    @media screen and (max-width: 820px){ // for phne
+        height: 1760px; // 1800
+        justify-content: flex-start;
+    }
+
+    @media screen and (max-width: 1300px){ // for iPad
+        
     }
 
 `;
@@ -43,7 +52,7 @@ export const ProjectWrapper = styled.div`
         padding: 0 20px;
         display: grid;
 
-        transform: scale(0.58);
+        transform: scale(0.7);
     }
 
     @media screen and (max-width: 768px){
@@ -54,12 +63,26 @@ export const ProjectWrapper = styled.div`
         transform: scale(0.75);
     }
 
+    @media screen and (max-width: 820px){ // for phone
+        grid-template-columns: 1fr;
+        padding: 0 20px;
+        display: columns;
+
+        transform: scale(0.95);
+        
+    }
+
+    @media screen and (max-width: 1300px){ // for iPad
+        justify-content: center;
+    }
+
 `;
 
 export const ProjectCard = styled.div`
     background: #fff;
     height: 700px;
     max-height: 370px;
+
     width: 270px; // 250
     display: flex;
     flex-direction: column;
@@ -77,15 +100,15 @@ export const ProjectCard = styled.div`
         cursor: pointer;
     }
 
-    @media screen and (max-width: 1000px){ // if sreen max-width is 1000px, do this
-        margin: 0 10px;
-        margin-bottom: 18px;
-    }
-
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 820px){
         margin: 0 10px;
         margin-bottom: 18px; // space
     }
+
+    @media screen and (max-width: 1300px){ // for iPad
+        width: 270px;
+    }
+
 
 `;
 
@@ -96,20 +119,15 @@ export const ProjectIcon = styled.img`
     margin-bottom: 10px;
 `;
 
-export const ProjectIconTwogether = styled.img`
-    height: 160px;
-    width: 160px;
-    margin-bottom: 10px;
-`;
-
 export const ProjectH1 = styled.h1`
     font-size: 2.5rem;
     color: #ffd02b;
     margin-bottom: 64px;
 
-    @media screen and (max-width: 480px){
-        font-size: 2rem;
+    @media screen and (max-width: 600px){
+        margin-top: 7rem;
     }
+
 
 `;
 

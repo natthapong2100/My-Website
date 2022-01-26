@@ -5,7 +5,7 @@ import penguinPic from '../../images/penguin-pic.png';
 import spacePic from '../../images/space-pic.png';
 
 import { ProjectContainer, ProjectH1, ProjectWrapper, ProjectCard, 
-  ProjectIcon, ProjectH2, ProjectP, ProjectIconTwogether, CardLink } from './ProjectElements';
+  ProjectIcon, ProjectH2, ProjectP, CardLink } from './ProjectElements';
 
 
 const Project = () => {
@@ -26,14 +26,14 @@ const Project = () => {
 
         <ProjectCard>
           <CardLink href="//github.com/natthapong2100/Twogether" target='_blank'></CardLink>
-          <ProjectIconTwogether src={twogetherPic}/>
+          <ProjectIcon src={twogetherPic}/>
           <ProjectH2>Twogether</ProjectH2>
           <ProjectP>Andrioid application which the main features are creating 
             a post, having user profile page, chat room and newsfeed.</ProjectP>
         </ProjectCard>
 
         <ProjectCard>
-          <CardLink href="https://github.com/natthapong2100/Penguin-VS-COVID" target='_blank'></CardLink>
+          <CardLink href="//github.com/natthapong2100/Penguin-VS-COVID" target='_blank'></CardLink>
           <ProjectIcon src={penguinPic}/>
           <ProjectH2>Penguin VS COVID</ProjectH2>
           <ProjectP>Python programming project, this is a fighting game which 

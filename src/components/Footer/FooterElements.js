@@ -29,29 +29,40 @@ export const SocialMediaWrap = styled.div`
     max-width: 1100px;
     margin: 40px auto 0 auto;
 
-    @media screen and (max-width: 820px){
+    @media screen and (max-width: 820px){ // active when have window like on Phone
         flex-direction: column;
     }
 `;
 
-export const InnerWrap = styled.div`
+export const InnerWrap = styled.div` // Natthapong L. and Rights
     display: block;
+
+    @media screen and (max-width: 820px){ // active on Phone
+        margin-bottom: 1.4rem;
+    }
     
 `;
 
-export const MiddleWrap = styled.div`
+export const MiddleWrap = styled.div` // address and email address
     display: flex;
-`
+
+    @media screen and (max-width: 820px){ // active on Phone
+        margin-bottom: 1.4rem;
+        
+    }
+
+`;
 
 
 export const AddressTxt = styled.b`
-    color: #fff; // yellow
+    color: #fff; 
     font-size: 1.0rem;
     margin-bottom: 5px;
+    text-align: center; // use this because I use break
     
 `;
 
-export const SocialLogo = styled(Link)`
+export const SocialLogo = styled(Link)` // Natthapong L.
     color: #fff;
     justify-self: start;
     cursor: pointer;
@@ -61,11 +72,20 @@ export const SocialLogo = styled(Link)`
     align-items: center;
     margin-bottom: 16px;
     font-weight: bold;
+
+    @media screen and (max-width: 820px){ // active on Phone
+        margin-bottom: 0px;
+        justify-content: center;
+
+    }
+
 `;
 
 export const WebsiteRights = styled.small`
     color: #fff;
     margin-bottom: 16px;
+
+
 `;
 
 export const SocialIcons = styled.div`
