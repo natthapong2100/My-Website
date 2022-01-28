@@ -14,7 +14,7 @@ export const homeObjOne = {
         learning React, JavaScript and CSS. Currently, I am a sophomore at Software \
         Engineering (International Program), KMITL.',
 
-    to: {pathname: '//drive.google.com/file/d/1Fx1PI-R-UVfRQFczhu_PY8s8ar9_M51l/view?usp=sharing'},
+    to: {pathname: '//drive.google.com/file/d/1VP0NBWyDVYsZuZwCuvbeKyd9UtIVHPqA/view?usp=sharing'},
     target: "_blank",
     
     buttonLabel: 'My Resume',
