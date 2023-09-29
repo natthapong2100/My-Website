@@ -1,5 +1,6 @@
 import React from 'react';
 import webPic from '../../images/web-pic.png';
+import narocalPic from '../../images/narocal-pic.png';
 import twogetherPic from '../../images/twogether-pic.png';
 import penguinPic from '../../images/penguin-pic.png';
 import spacePic from '../../images/space-pic.png';
@@ -13,6 +14,15 @@ const Project = () => {
     <ProjectContainer id="projects">
       <ProjectH1>My Projects</ProjectH1>
       <ProjectWrapper>
+
+        <ProjectCard>
+            <CardLink href="//github.com/Beammi/NAROCAL" target='_blank'></CardLink>
+            <ProjectIcon src={narocalPic}/>
+            <ProjectH2>Narocal</ProjectH2>
+            <ProjectP>
+              A marketplace web application where Thai people can easily shop for local products from other countries.
+            </ProjectP>
+        </ProjectCard>
 
         <ProjectCard>
           <CardLink href="//github.com/natthapong2100/My-Website" target='_blank'></CardLink>

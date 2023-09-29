@@ -20,7 +20,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                             <TopLine>{topLine}</TopLine>
                             <Heading lightText={lightText}>{headline}</Heading>
                             <Subtitle darkText={darkText}>{description}</Subtitle>
-                            <BtnWrap>
+                            {/* <BtnWrap>
                                 <ButtonR
                                 smooth={true}
                                 duration={true}
@@ -34,7 +34,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                                 target={target}
                                 >
                                 {buttonLabel}</ButtonR>
-                            </BtnWrap>
+                            </BtnWrap> */}
 
                         </TextWrapper>
                     </Column1>
