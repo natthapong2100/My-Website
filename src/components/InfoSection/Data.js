@@ -9,10 +9,9 @@ export const homeObjOne = {
     lightTextDesc: true,
 
     topLine: 'About Me',
-    headline: 'Software Engineering Student at KMITL',
-    description: 'Hello, my nickname is Nat. I build this website for gaining more experience and \
-        learning React, JavaScript and CSS. Currently, I am a sophomore at Software \
-        Engineering (International Program), KMITL.',
+    headline: 'Artificial Intelligence Student at University of St Andrews',
+    description: 'Hello, my nickname is Nate. Once, I build this website for gaining more experience and \
+        learning React and other web app frameworks. Currently, I am interesting in the data scientist and web development field.',
 
     to: {pathname: '//drive.google.com/file/d/1VP0NBWyDVYsZuZwCuvbeKyd9UtIVHPqA/view?usp=sharing'},
     target: "_blank",

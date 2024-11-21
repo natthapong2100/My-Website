@@ -27,7 +27,7 @@ const Footer = () => {
                         </InnerWrap>
                             
                         <MiddleWrap>
-                            <AddressTxt> Address: Bangkok 10220 <br></br> Email address: 63011208@kmitl.ac.th </AddressTxt>                                              
+                            <AddressTxt> Address: St Andrews, UK <br></br> Email address: natthapong2100@gmail.com </AddressTxt>                                              
                             
                         </MiddleWrap>
                         

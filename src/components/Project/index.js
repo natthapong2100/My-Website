@@ -1,6 +1,7 @@
 import React from 'react';
 import webPic from '../../images/web-pic.png';
 import narocalPic from '../../images/narocal-pic.png';
+import nebulaPic from '../../images/nebula-pic.png';
 import twogetherPic from '../../images/twogether-pic.png';
 import penguinPic from '../../images/penguin-pic.png';
 import spacePic from '../../images/space-pic.png';
@@ -14,6 +15,15 @@ const Project = () => {
     <ProjectContainer id="projects">
       <ProjectH1>My Projects</ProjectH1>
       <ProjectWrapper>
+
+      <ProjectCard>
+            <CardLink href="//github.com/Beammi/Nebula" target='_blank'></CardLink>
+            <ProjectIcon src={nebulaPic}/>
+            <ProjectH2>Nebula</ProjectH2>
+            <ProjectP>
+              Crowdsourcing map web platform that allowed people to share the point of interest, namely Nebu.
+            </ProjectP>
+        </ProjectCard>
 
         <ProjectCard>
             <CardLink href="//github.com/Beammi/NAROCAL" target='_blank'></CardLink>
