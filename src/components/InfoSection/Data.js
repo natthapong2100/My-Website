@@ -9,7 +9,7 @@ export const homeObjOne = {
     lightTextDesc: true,
 
     topLine: 'About Me',
-    headline: 'Artificial Intelligence Student at University of St Andrews',
+    headline: 'MSc Artificial Intelligence Student at University of St Andrews',
     description: 'Hello, my nickname is Nate. Once, I build this website for gaining more experience and \
         learning React and other web app frameworks. Currently, I am interesting in the data scientist and web development field.',
 

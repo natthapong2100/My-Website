@@ -34,9 +34,9 @@ const Footer = () => {
                         
                         <SocialIcons>
 
-                            <SocialIconLink href='//www.facebook.com/profile.php?id=100009865321766' target="_blank" aria-label="Facebook">
+                            {/* <SocialIconLink href='//www.facebook.com/profile.php?id=100009865321766' target="_blank" aria-label="Facebook">
                                 <FaFacebook />
-                            </SocialIconLink>
+                            </SocialIconLink> */}
 
                             <SocialIconLink href='//line.me/ti/p/gwGXeNv5cC' target="_blank" aria-label="Line">
                                 <FaLine />

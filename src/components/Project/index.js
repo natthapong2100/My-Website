@@ -16,7 +16,7 @@ const Project = () => {
       <ProjectH1>My Projects</ProjectH1>
       <ProjectWrapper>
 
-      <ProjectCard>
+        <ProjectCard>
             <CardLink href="//github.com/Beammi/Nebula" target='_blank'></CardLink>
             <ProjectIcon src={nebulaPic}/>
             <ProjectH2>Nebula</ProjectH2>

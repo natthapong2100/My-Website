@@ -9,9 +9,10 @@ export const skillsObj = {
 
     topLine: 'Skills',
     headline: "Programming Languages & Soft Skills",
-    description1: "Languages: Java, Python, C++, C, JavaScript, HTML5, CSS",
-    description2: "Modules/Library/Technologies: React.js, Node.js, Next.js, Express.js, Tailwind CSS, PostgreSQL, Qt, Pygame, Android Studio, Parse",
-    description3: "Soft skills: Growth mindset, Problem solving, Critical thinking, Teamwork",
+    description1: "Languages: Java, Python, C++, C, JavaScript, HTML, CSS, R, Go, SQL",
+    description2: "Frameworks & Libraries: React.js, Next.js, Node.js, Express.js, Tailwind CSS, PostgreSQL, Django, Robot framework, Selenium, Qt, Parse, Git, Docker, D3.js",
+    description3: "Data Science & Analytics: numpy, pandas, scikit-learn, matplotlib, modAL ,Tableau, Power BI",
+    description4: "Soft skills: Critical Thinkingm, Problem Solving, Growth Mindset, Team Player, Communication Skills",
 
     imgStart: true,
     img: skillsPic,

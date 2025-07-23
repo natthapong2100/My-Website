@@ -5,7 +5,7 @@ TextWrapper, TopLine, Heading, Subtitle, ImgWrap, Img } from './SkillsElements';
 
 
 const SkillsSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, 
-    description1, description2, description3, img, alt}) => {
+    description1, description2, description3, description4, img, alt}) => {
     return (
         <>
           <SkillsContainer lightBg={lightBg} id={id}>
@@ -21,7 +21,8 @@ const SkillsSection = ({lightBg, id, imgStart, topLine, lightText, headline, dar
 
                             <Subtitle darkText={darkText}>{description1}</Subtitle>
                             <Subtitle darkText={darkText}>{description2}</Subtitle>
-                            <Subtitle darkText={darkText}>{description3}</Subtitle>                            
+                            <Subtitle darkText={darkText}>{description3}</Subtitle>
+                            <Subtitle darkText={darkText}>{description4}</Subtitle>                            
 
                         </TextWrapper>
                     </Column1>
