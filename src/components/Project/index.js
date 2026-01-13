@@ -5,6 +5,7 @@ import nebulaPic from '../../images/nebula-pic.png';
 import twogetherPic from '../../images/twogether-pic.png';
 import penguinPic from '../../images/penguin-pic.png';
 import spacePic from '../../images/space-pic.png';
+import MScAIProjectPic from '../../images/demographic-linkage-AL-pic.png';
 
 import { ProjectContainer, ProjectH1, ProjectWrapper, ProjectCard, 
   ProjectIcon, ProjectH2, ProjectP, CardLink } from './ProjectElements';
@@ -15,6 +16,15 @@ const Project = () => {
     <ProjectContainer id="projects">
       <ProjectH1>My Projects</ProjectH1>
       <ProjectWrapper>
+ 
+        <ProjectCard>
+            <CardLink href="//github.com/natthapong2100/demographic-linkage-active-learning" target='_blank'></CardLink>
+            <ProjectIcon src={MScAIProjectPic}/>
+            <ProjectH2 style={{ fontSize: "0.95rem", textAlign: "center" }}>Enhancing Demographic Linkage with Active Learning in Machine Learning</ProjectH2>
+            <ProjectP style={{ fontSize: "0.85rem"}}>
+              A distinction-grade MSc dissertation project applying Active Learning, Passive Learning, and Bayesian Optimisation to enhance demographic linkage under challenging data conditions.
+            </ProjectP>
+        </ProjectCard>
 
         <ProjectCard>
             <CardLink href="//github.com/Beammi/Nebula" target='_blank'></CardLink>

@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const ProjectContainer = styled.div`
-  height: 75vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -35,7 +35,9 @@ export const ProjectWrapper = styled.div`
   align-items: center;
   justify-content: flex-start;
   flex-direction: row;
-  height: 540px;
+
+  min-height: 480px;
+  height: auto; 
   width: 85vw; /* Changed from max-width to width */
   padding: 0 2rem;
   margin-bottom: 4em;
@@ -77,10 +79,10 @@ export const ProjectWrapper = styled.div`
 
 export const ProjectCard = styled.div`
   background: #fff;
-  height: 700px;
-  max-height: 370px;
-  width: 270px;
-  min-width: 270px; /* Prevent cards from shrinking */
+  min-height: 450px;   /* control minimum size */
+  height: auto;       /* allow growth */
+  width: 290px;
+  min-width: 290px; /* Prevent cards from shrinking */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -91,6 +93,9 @@ export const ProjectCard = styled.div`
   box-shadow: 0 1px 3px rgba(0,0,0,0.2);
   transition: all 0.2s ease-in-out;
   flex-shrink: 0; /* Prevent flex items from shrinking */
+
+  position: relative; /* For positioning CardLink */
+  overflow: hidden;
   
   &:hover {
     transform: scale(1.037);
@@ -128,6 +133,8 @@ export const ProjectIcon = styled.img`
   height: 160px;
   width: auto;
   margin-bottom: 10px;
+
+  position: relative;
 `;
 
 export const ProjectH1 = styled.h1`
@@ -135,7 +142,7 @@ export const ProjectH1 = styled.h1`
   color: #ffd02b;
   margin-bottom: 64px;
   @media screen and (max-width: 820px){
-    margin-top: 7rem;
+    margin-top: 9rem;
   }
 `;
 
@@ -143,11 +150,15 @@ export const ProjectH2 = styled.h2`
   color: #fc6545;
   font-size: 1.1rem;
   margin-bottom: 10px;
+
+  position: relative;
 `;
 
 export const ProjectP = styled.p`
   font-size: 1rem;
   text-align: center;
+
+  position: relative;
 `;
 
 export const CardLink = styled.a`
@@ -156,4 +167,6 @@ export const CardLink = styled.a`
   width: 100%;
   top: 0;
   left: 0;
+  inset: 0;
+  z-index: 3;
 `;

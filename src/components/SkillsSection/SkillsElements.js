@@ -84,10 +84,20 @@ export const Heading = styled.h1`
 
 export const Subtitle = styled.p`
     max-width: 500px;
-    margin-bottom: 25px;
     font-size: 20px;
     line-height: 24px;
     color: ${({ darkText }) => (darkText ? '#010606' : '#fff')};
+`;
+
+export const SkillBlock = styled.div`
+  margin-bottom: 30px;
+`;
+
+export const SkillTitle = styled.p`
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 6px;
+  color: #fff;
 `;
 
 export const BtnWrap = styled.div`
